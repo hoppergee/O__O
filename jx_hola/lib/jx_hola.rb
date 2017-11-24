@@ -1,5 +1,10 @@
 require "jx_hola/version"
+require "jx_hola/baba"
 
 module JxHola
-  # Your code goes here...
+  class Client
+    def self.hola
+      puts "Hello wrold!"
+    end
+  end
 end
