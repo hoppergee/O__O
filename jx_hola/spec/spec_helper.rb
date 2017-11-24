@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "jx_gem_test_1"
+require "jx_hola"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

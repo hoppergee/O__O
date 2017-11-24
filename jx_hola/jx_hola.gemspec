@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "jx_gem_test_1/version"
+require "jx_hola/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "jx_gem_test_1"
-  spec.version       = JxGemTest1::VERSION
+  spec.name          = "jx_hola"
+  spec.version       = JxHola::VERSION
   spec.authors       = ["吉翔"]
   spec.email         = ["jx4554@gmail.com"]
 
